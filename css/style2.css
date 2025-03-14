@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Hind:300&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #fffdfd;
+}
+.imgcel{
+	overflow-x: hidden;
+	height: 640px;
+	width: 100%;
+}
+.quest{
+	font-family: Montserrat;
+	font-size: 29px;
+	color: #282c30;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-align: left;
+    transform: translateY(-25px);
+    animation-name: ptrans2;
+    animation-duration: 1s;
+}
+.position-welcome {
+	width: 600px;
+	background-color: transparent;
+	text-align: right;
+	transform: translateY(-60px);
+	font-weight: bold;
+}
+.position-welcome2 {
+	width: 600px;
+	background-color: transparent;
+	text-align: right;
+	transform: translateY(20px);
+	font-weight: bold;
+}
+.welcome {
+	background-color: transparent;
+	transition: all 0.5s ease 0s;
+	text-decoration: none;
+	color: #426a70;
+	font-family: Montserrat;
+	font-size: 44px;
+	text-align: right;
+	animation-name: ptrans;
+    animation-duration: 1s;
+    box-sizing: border-box;
+    background-color: transparent;
+    letter-spacing: -2px;
+}
+.welcome strong {
+	background: transparent;
+	color: #4399a7;
+	letter-spacing: -2px;
+}
+.welcome2 {
+	background-color: transparent;
+	transition: all 0.5s ease 0s;
+	text-decoration: none;
+	color: #426a70;
+	font-family: Montserrat;
+	font-size: 40px;
+	text-align: right;
+	animation-name: ptrans;
+    animation-duration: 1s;
+    box-sizing: border-box;
+    background-color: transparent;
+    letter-spacing: -3px;
+}
+.welcome2 strong {
+	background: transparent;
+	color: #4399a7;
+	letter-spacing: -4px;
+}
+.quest li {
+	list-style: none;
+	background-color: transparent;
+}
+.quest li a {
+	transition: all 0.5s ease 0s;
+	text-decoration: none;
+	background-color: transparent;
+	color: #008a6f;
+	font-weight: bolder;
+	cursor: default;
+}
+.quest li a:hover {
+	color: #01ac8b;
+	background-color: transparent;
+}
+.position-quest{
+	position: absolute;
+	transform: translate(700px, -500px);
+	background-color: transparent;
+}
+.bannerbig {
+	overflow-x: hidden;
+}
+.formu{
+	position: absolute;
+	max-width: 250px;
+	margin: auto;
+	padding: 0 5px;
+	overflow: hidden;
+	transform: translate(243px, -520px) rotate(-20deg);
+	background: transparent;
+	width: 620px;
+	overflow: hidden;
+}
+.form-control{
+	width: 100%;
+	background: #eaf0f5;
+	border: 0;
+	outline: none;
+	margin-bottom: 16px;
+	font-family: Montserrat;
+	display: block;
+	box-sizing: border-box;
+	margin: 2px 0;
+	padding: 20px 20px;
+	color: #111;
+	overflow: hidden;
+	animation-name: celon;
+	animation-duration: 2s;
+	transition: 0.7s all;
+}
+.form-control:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+.submit{
+	border: 0;
+	background: #0091FF;
+	color: #fff;
+	padding: 8px 70px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-family: Montserrat;
+	overflow: hidden;
+	margin-left: 30px;
+	animation-name: celon;
+	animation-duration: 2.5s;
+}
+.submit:hover{
+	background: #4EBF56;
+}
+@keyframes ptrans{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+	from{transform:translateX(235px)}
+	to{transform:translateX(0px)}
+}
+@keyframes ptrans2{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+	from{transform:translate(-235px, 0px)}
+	to{transform:translate(0px, -25px)}
+}
+.quest img{
+	background: transparent;
+	height: 120px;
+	overflow: hidden;
+}
+.imgcel2{
+	overflow-x: hidden;
+	height: 640px;
+	width: 100%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+@keyframes celon{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.lamp{
+	width: 100%;
+	height: 650px;
+}
+.why{
+	overflow: hidden;
+	margin-top: -5px;
+}
+.why h2{
+	position: absolute;
+	transform: translate(700px, -550px);
+	overflow: hidden;
+	font-size: 38px;
+	width: 500px;
+	font-weight: bold;
+	color: #262625;
+	text-align: left;
+	font-family: Montserrat;
+	overflow-x: hidden;
+	background: transparent;
+}
+.textin {
+	position: absolute;
+	transform: translate(700px, -370px);
+	overflow: hidden;
+	font-size: 22px;
+	width: 550px;
+	color: gray;
+	text-align: left;
+	font-family: Montserrat;
+	overflow-x: hidden;
+	background: transparent;
+}
+.texton {
+	position: absolute;
+	transform: translate(700px, -270px);
+	overflow: hidden;
+	font-size: 22px;
+	width: 550px;
+	color: gray;
+	text-align: left;
+	font-family: Montserrat;
+	overflow-x: hidden;
+	background: transparent;
+}
+.solutions-text{
+	text-align: center;
+	font-size: 46px;
+	font-weight: bold;
+	font-family: Montserrat;
+	margin: 50px;
+	letter-spacing: -2px;
+	width: 77%;
+	transform: translateX(12%);
+	overflow-x: hidden;
+}
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+  overflow-x: hidden;
+}
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+  overflow-x: hidden;
+}
+[data-anime="top"] {
+  transform: translate3d(0, -50px, 0);
+  overflow-x: hidden;
+}
+[data-anime="bottom"] {
+  transform: translate3d(0, 50px, 0);
+  overflow-x: hidden;
+}
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  overflow-x: hidden;
+}
+.coltamanho{
+	width: 250px;
+	height: 250px;
+}
+.col-3 p{
+	font-size: 24px;
+	font-family: Montserrat;
+	text-align: center;
+	color: gray;
+	font-weight: bold;
+}
+.speaking-tongues{
+	position: absolute;
+	transform: translate(1235px, 10px);
+	background: transparent;
+	overflow-x: hidden;
+}
+.speaking-tongues img{
+	width: 70px;
+	height: 70px;
+	background: transparent;
+	overflow-x: hidden;
+	margin-right: 10%;
+	animation-name: logon;
+	animation-duration: 0.6s;
+}
+@keyframes logon{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+	from{
+		transform: translateY(-50px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}
+.position-imgicon{
+	margin-top: 80px;
+	overflow-x: hidden;	
+	overflow-y: hidden;	
+	height: 600px;
+}
+.position-imgicon img{
+	width: 100%;
+	height: 600px;
+	overflow-x: hidden;	
+	overflow-y: hidden;	
+}
+.wp{
+	position: absolute;
+	transform: translate(780px, -565px);
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: -2px;
+	font-family: Montserrat;
+	color: #fff;	
+	background: transparent;
+	text-shadow: 1px 1px #111;
+}
+.wp2{
+	position: absolute;
+	transform: translate(780px, -382px);
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: -2px;
+	font-family: Montserrat;
+	color: #fff;	
+	background: transparent;
+	text-shadow: 1px 1px #111;
+}
+.wp3{
+	position: absolute;
+	transform: translate(780px, -195px);
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: -2px;
+	font-family: Montserrat;
+	color: #fff;	
+	background: transparent;
+	text-shadow: 1px 1px #111;
+}
+.gg{
+	position: absolute;
+	transform: translate(795px, -525px);
+	font-size: 22px;
+	letter-spacing: 0px;
+	font-family: Montserrat;
+	color: #fff;	
+	background: transparent;
+	width: 425px;
+	text-align: left;
+}
+.gg2{
+	position: absolute;
+	transform: translate(795px, -340px);
+	font-size: 22px;
+	letter-spacing: 0px;
+	font-family: Montserrat;
+	color: #fff;	
+	background: transparent;
+	width: 425px;
+	text-align: left;
+}
+.gg3{
+	position: absolute;
+	transform: translate(795px, -155px);
+	font-size: 22px;
+	letter-spacing: 0px;
+	font-family: Montserrat;
+	color: #fff;	
+	background: transparent;
+	width: 425px;
+	text-align: left;
+}
+.how{
+	text-align: left;
+	font-size: 44px;
+	font-weight: bold;
+	font-family: Montserrat;
+	letter-spacing: -2px;
+	position: absolute;
+	transform: translate(100px, -540px);
+	background: transparent;
+	width: 500px;
+}
+.how2{
+	text-align: left;
+	font-size: 24px;
+	font-family: Montserrat;
+	letter-spacing: -2px;
+	position: absolute;
+	transform: translate(100px, -340px);
+	background: transparent;
+	width: 500px;
+}
+.how3{
+	text-align: left;
+	font-size: 24px;
+	font-family: Montserrat;
+	letter-spacing: -2px;
+	position: absolute;
+	transform: translate(100px, -185px);
+	background: transparent;
+	width: 500px;
+}
+.formimg{
+	width: 100%;
+	height: 700px;
+	overflow-x: hidden;
+	margin-bottom: 50px;
+}
+.compare{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Montserrat;
+	letter-spacing: -2px;
+	width: 77%;
+	transform: translateX(170px);
+	overflow-x: hidden;
+}
+.botao {
+	padding: 9px 25px;
+	background-color:#0C86E8;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	color: #eaf0f5;
+	font-family: Hind;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 38%;
+}
+.botao:hover{
+	background-color: #0C61E8;
+}
+.botao2 {
+	padding: 9px 25px;
+	background-color: #20A844;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	color: #eaf0f5;
+	font-family: Hind;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.botao2:hover{
+	background-color: #0D8230;
+}
+.fa-whatsapp{
+	background-color: transparent;
+	transform: scale(1.8) translateX(-5px);
+}
+.fa-angle-double-up{
+	background-color: transparent;
+	transform: scale(1.8) translateX(-5px);
+}
+.position-button{
+	transform: translateY(-15px);
+}
+.cabou {
+	background-color: #eaf0f5;
+	height: 220px;
+	width: 100%;
+	margin-top: 50px;
+	position: relative;
+	box-shadow: 5px 5px 5px 5px #262626;
+	overflow: hidden;
+}
+.cabou h3{
+	font-size: 20px;
+	font-family: Hind;
+	color: #111;
+	margin-left: 15%;
+	box-sizing: border-box;
+	transform: translate(700px, 175px);
+	overflow: hidden;
+	background: transparent;
+	position: absolute;
+}
+.itsend{
+	margin-left: 15%;
+	color: #111;
+	font-family: Hind;
+	font-size: 12px;
+	position: absolute;
+	transform: translate(940px, 200px);
+	background: transparent;
+}
+.itsend strong{
+	background: transparent;
+}
+.socialend{
+	margin-top: 10px;
+	color: #111;
+	font-family: Hind;
+	font-size: 18px;
+	position: absolute;
+	text-align: center;
+	transform: translate(920px, 30px);
+	background: transparent;
+}
+.socialend h2{
+	transform: translate(-10px, 0);
+	background: transparent;
+}
+.socialend a{
+	font-size: 50px;
+	letter-spacing: 20px;
+	background: transparent;
+}
+.fa-youtube{
+	color: #FF0000;
+}
+.fa-facebook-square{
+	color: #4267B2;
+}
+.fa-instagram{
+	color: rgb(174,61,139);
+}
+.fa-twitter{
+	color: #1DA1F2;
+}
+.zoomlogo{
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: 0.3s;
+	background: transparent;
+}
+.zoomlogo:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	background-color: transparent;
+}
+.p-footer{
+	transform: translate(220px, 50px);
+	position: absolute;
+	background-color: transparent;
+}
+.servic-p{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	font-color: #111;
+	list-style: none;
+	background-color: transparent;
+	font-family: Montserrat;
+}
+.servic-a{
+	font-size: 16px;
+	color: #111;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #282c30;
+	text-decoration: none;
+	background: transparent;
+}
+.servic-a a{
+	background: transparent;
+	text-decoration: none;
+	color: #282c30;
+}
+.servic-a:hover{
+	color: #74BF3B;
+}
+.servic-a:hover a{
+	color: #4E8028;
+}
+.c-footer{
+	transform: translate(550px, 50px);
+	position: absolute;
+	background: transparent;
+}
+.c-footer li {
+	background: transparent;
+}
+.servic-co{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	font-color: #111;
+	list-style: none;
+	background: transparent;
+	font-family: Montserrat;
+}
+.servic-ab {
+	font-size: 16px;
+	color: #111;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #282c30;
+	text-decoration: none;
+	background: transparent;
+}
+.servic-ab a{
+	background: transparent;
+	text-decoration: none;
+	color: #282c30;
+}
+.servic-ab:hover{
+	color: #43C9FF;
+}
+.servic-ab:hover a{
+	color: #4789E6;
+}
